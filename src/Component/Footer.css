@@ -1,0 +1,50 @@
+/* src/components/Footer.css */
+
+.App-footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #5f6368;
+  width: 100%;
+  position: relative;
+  margin-top: auto;
+}
+
+.Footer-top {
+  display: flex;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Vertically centers items */
+  padding: 0 20px; /* Optional: add some horizontal padding */
+  margin-bottom: 10px;
+ 
+}
+.Footer-divider {
+  border-top: 1px solid #e0e0e0;
+  margin: 10px 0;
+}
+
+.Footer-links {
+  display: flex;
+  justify-content: space-between; /* Aligns footer links to left and right */
+  flex-wrap: wrap;
+  padding: 0 20px; /* Optional: add some horizontal padding */
+}
+
+.Footer-left,
+.Footer-right {
+  display: flex;
+  gap: 15px;
+}
+
+
+
+.Footer-left a,
+.Footer-right a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.Footer-left a:hover,
+.Footer-right a:hover {
+  text-decoration: underline;
+}
