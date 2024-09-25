@@ -1,5 +1,4 @@
 // src/components/MainContent.js
-
 import React from "react";
 import "./Body.css";
 
@@ -15,7 +14,6 @@ const Body = () => {
         width="200"
         id="hplogo"
       />
-
       <div className="Search-bar">
         <div className="Search-input-container">
           <input
